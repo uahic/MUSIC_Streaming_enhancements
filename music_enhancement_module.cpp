@@ -109,6 +109,6 @@ music_enhancement_module::MUSICEnhancementModule::init( SLIInterpreter* i )
      Give node type as template argument and the name as second argument.
   */
   nest::kernel().model_manager.register_node_model< nest::music_cont_out_proxy >(
-    "music_cont_out_proxy" );
+    "music_cont_out_proxy_chakalaka" );
 
 } // MUSICEnhancementModule::init()
